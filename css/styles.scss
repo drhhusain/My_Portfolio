@@ -1,0 +1,185 @@
+
+$footer-bg-color: #1d1b1b;
+$royal-color: #ffc0a3;
+
+* {
+  list-style: none;
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: auto;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  
+}
+
+/* ############## All header work ################# */
+// header {
+//   .logo {
+//     width: 140px;
+//     margin: 0 auto;
+//     z-index: 10;
+//     position: relative;
+//     background: scroll;
+//   }
+//   nav {
+//     position: relative;
+//     top: 70px;
+//     left: 40px;
+//     right: 40px;
+//     font-size: 14px;
+//     line-height: 20px;
+//     text-transform: uppercase;
+//     letter-spacing: 1px;
+//     text-align: center;
+//     font-family: "Fredoka One";
+    
+//     ul { 
+//       display: inline-block;
+//     }
+//     li {
+//       display: inline-block;
+//       margin: 0 20px;
+//       width: 100px;
+//       position: relative;
+//       &::after {
+//         position: absolute;
+//         left: 50%;
+//         bottom: -10px;
+//         margin-left: -20px;
+//         width: 40px;
+//         height: 2px;
+//         background: #f53145;
+//         content: "";
+//         display: none;
+//       }
+//     }
+//     a {
+//       color: #232323;
+//       display: inline-block;
+//       padding: 10px;
+//       &:hover {
+//         color: whitesmoke;
+//         background: $footer-bg-color;
+//       }
+//   }
+//     background: greenyellow;
+//   }
+  
+// }
+
+
+/* ############## All body work ################# */
+
+section {
+  background-attachment: fixed;
+  width: 100%;
+  height: 100vh;
+  background: #121518;
+}
+
+
+
+/* ############## All footer work ################# */
+
+footer {
+  background-color : $footer-bg-color;
+  color: whitesmoke;
+  width: 100%;
+
+}
+
+.links {
+  width: auto;
+  max-width: 1080px;
+  height: auto;
+  margin: auto;
+  margin-bottom: 125px;
+  padding-top: 5px;
+  
+  div {
+    p {
+      text-align: center;
+      font-size: x-large;
+      font-family: "Fredoka One";
+      margin-block-start: 1em;
+      margin-block-end: 1em;
+    }
+  }
+}
+
+.github {
+  float: left;
+  width: 30%;
+  margin: 0 1.25% 0 2.5%;
+  background: $royal-color;
+  color: $footer-bg-color;
+  padding: 1em;
+  box-sizing: border-box;
+  border-radius: 10px;
+  user-select: none;
+  span {
+    margin-left: 0.5em;
+  }
+  &:hover {
+    background: #17404b;
+    color: whitesmoke;
+    cursor: pointer;
+  }
+}
+
+.linked-in {
+  float: left;
+  width: 30%;
+  margin: 0 1.25%;
+  background: $royal-color;
+  color: $footer-bg-color;
+  padding: 1em;
+  box-sizing: border-box;
+  border-radius: 10px;
+  user-select: none;
+  span {
+    margin-left: 0.5em;
+  }
+  &:hover {
+    background: #0e76a8;
+    color: whitesmoke;
+    cursor: pointer;
+  }
+}
+
+.hacker-rank {
+  float: left;
+  width: 30%;
+  margin: 0 2.5% 0 1.25%;
+  background: $royal-color;
+  color: $footer-bg-color;
+  padding: 1em;
+  box-sizing: border-box;
+  border-radius: 10px;
+  user-select: none;
+  span {
+    margin-left: 0.5em;
+  }
+  &:hover {
+    background: #14b845;
+    color: whitesmoke;
+    cursor: pointer;
+  }
+}
+
+.copyright {
+  clear: both;
+  padding: 20px;
+  text-align: center;
+  font-size: smaller;
+  background: #252424;
+}
+
+
+
